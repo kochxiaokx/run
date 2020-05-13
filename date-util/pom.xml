@@ -7,8 +7,14 @@
         <groupId>org.koch</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <description>日期工具</description>
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <util.version>1.0-SNAPSHOT</util.version>
+        <judge.version>1.0-SNAPSHOT</judge.version>
+        <base.version>1.0-SNAPSHOT</base.version>
+    </properties>
     <groupId>org.run</groupId>
     <artifactId>date-util</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -22,6 +28,16 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.run</groupId>
+            <artifactId>util</artifactId>
+            <version>${util.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.run</groupId>
+            <artifactId>base</artifactId>
+            <version>${base.version}</version>
         </dependency>
     </dependencies>
 

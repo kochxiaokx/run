@@ -6,18 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="koch-web" />
-        <module name="ioc" />
-        <module name="data" />
-        <module name="mvc" />
-        <module name="some" />
-        <module name="design" />
-        <module name="algorithm" />
-        <module name="aop" />
         <module name="date-util" />
-        <module name="sql-util" />
         <module name="client" />
+        <module name="ioc" />
+        <module name="util" />
+        <module name="some" />
+        <module name="sql-util" />
+        <module name="mvc" />
+        <module name="aop" />
+        <module name="algorithm" />
+        <module name="data" />
+        <module name="base" />
+        <module name="koch-web" />
+        <module name="data-structure" />
+        <module name="design" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asserts" target="1.8" />
+      <module name="asserts-do" target="1.8" />
+      <module name="do-asserts" target="1.8" />
+      <module name="judge" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

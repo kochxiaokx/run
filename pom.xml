@@ -20,6 +20,9 @@
         <module>design</module>
         <module>koch-web</module>
         <module>some</module>
+        <module>util</module>
+        <module>data-structure</module>
+        <module>base</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

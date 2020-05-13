@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/some/src/main/java/org/run/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/org/run/base/asserts/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/org/run/base/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/data-structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/data-structure.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/date-util/src/main/java/org/run/date/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/BaseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/MapQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/SqlQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/excel/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/excel/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/excel/ExcelVOAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/result/FastJsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/result/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/test/java/org/run/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/util.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/date-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date-util/src/main/java/org/run/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koch-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koch-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/some/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sql-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-util/src/main/java/org/run/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +62,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,21 +70,33 @@
         <option name="mavenHome" value="F:/maven/apache-maven-3.5.2" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1bpqYpmeeweIJREYsPI2sOtnUaZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -60,46 +113,72 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="629" y="134" key="CommitChangelistDialog2" timestamp="1589344784970">
+    <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589351560537">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589344784970" />
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1589341471930">
+    <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589351560537" />
+    <state x="629" y="134" key="CommitChangelistDialog2" timestamp="1589344841297">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
-    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1589341471930">
+    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589344841297" />
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1589353408106">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
-    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1589341471930">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589353408106" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1589353408105">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
-    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1589341471930">
+    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589353408105" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1589353408105">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
-    <state x="492" y="182" key="SettingsEditor" timestamp="1589344743340">
+    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589353408105" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1589353408105">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589344743340" />
-    <state x="671" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589344503889">
+    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589353408105" />
+    <state x="492" y="182" key="SettingsEditor" timestamp="1589351026640">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="671" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589344503889" />
-    <state x="365" y="235" key="new project wizard" timestamp="1589339838646">
+    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589351026640" />
+    <state x="790" y="318" key="chooseDestDirectoryDialog" timestamp="1589351559702">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="365" y="235" key="new project wizard/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589339838646" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589341818120">
+    <state x="790" y="318" key="chooseDestDirectoryDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589351559702" />
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589349642862">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341818120" />
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589349642862" />
+    <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589361499382">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589361499382" />
+    <state x="365" y="235" key="new project wizard" timestamp="1589352247278">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="365" y="235" key="new project wizard/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589352247278" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589360948719">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589360948719" />
   </component>
 </project>

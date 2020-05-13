@@ -3,7 +3,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
+  <description>测试各个模块的代码</description>
   <parent>
     <artifactId>run</artifactId>
     <groupId>org.koch</groupId>
@@ -30,6 +30,7 @@
     <mvc.version>1.0-SNAPSHOT</mvc.version>
     <some.version>1.0-SNAPSHOT</some.version>
     <sql-util.version>1.0-SNAPSHOT</sql-util.version>
+    <util.version>1.0-SNAPSHOT</util.version>
   </properties>
 
   <dependencies>
@@ -83,6 +84,11 @@
       <groupId>org.run</groupId>
       <artifactId>sql-util</artifactId>
       <version>${sql-util.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.run</groupId>
+      <artifactId>util</artifactId>
+      <version>${util.version}</version>
     </dependency>
   </dependencies>
 

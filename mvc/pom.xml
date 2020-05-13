@@ -19,7 +19,7 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-
+  <description>手动实现mvc代码</description>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
