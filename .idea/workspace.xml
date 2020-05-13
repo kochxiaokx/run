@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/base.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/org/run/base/asserts/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/org/run/base/exception/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/data-structure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/data-structure.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/date-util/src/main/java/org/run/date/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/BaseQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/MapQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/PageRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/SqlQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/excel/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/excel/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/excel/ExcelVOAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/result/FastJsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/result/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/org/run/util/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/test/java/org/run/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/util.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/date-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date-util/src/main/java/org/run/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koch-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koch-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/some/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sql-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-util/src/main/java/org/run/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +51,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/algs4.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -129,17 +88,22 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="整合以前的工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合以前的工具" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589351560537">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589351560537" />
-    <state x="629" y="134" key="CommitChangelistDialog2" timestamp="1589344841297">
+    <state x="629" y="134" key="CommitChangelistDialog2" timestamp="1589361555274">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589344841297" />
+    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589361555274" />
+    <state x="792" y="323" key="FileChooserDialogImpl" timestamp="1589361903377">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="792" y="323" key="FileChooserDialogImpl/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589361903377" />
     <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1589353408106">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -156,10 +120,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589353408105" />
-    <state x="492" y="182" key="SettingsEditor" timestamp="1589351026640">
+    <state x="492" y="182" key="SettingsEditor" timestamp="1589361911892">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589351026640" />
+    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589361911892" />
     <state x="790" y="318" key="chooseDestDirectoryDialog" timestamp="1589351559702">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
