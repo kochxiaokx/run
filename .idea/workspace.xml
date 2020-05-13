@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="" />
+    <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/aop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date-util/date-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/date-util/date-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design/design.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/ioc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/ioc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koch-web/koch-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/koch-web/koch-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some/some.iml" beforeDir="false" afterPath="$PROJECT_DIR$/some/some.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-util/sql-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sql-util/sql-util.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +22,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,8 +44,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,14 +80,14 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
-    <state x="492" y="182" key="SettingsEditor" timestamp="1589339453797">
+    <state x="492" y="182" key="SettingsEditor" timestamp="1589344743340">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589339453797" />
-    <state x="671" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589339436321">
+    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589344743340" />
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589344503889">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="671" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589339436321" />
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589344503889" />
     <state x="365" y="235" key="new project wizard" timestamp="1589339838646">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
