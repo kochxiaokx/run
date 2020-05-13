@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/run.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/org/run/client/algorithm/AlgorithmClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/IsPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/aop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/data-structure.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/date-util/date-util.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/date-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/date-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/design.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/ioc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/koch-web/koch-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/mvc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/some/some.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-util/sql-util.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/util.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/run/client/algorithm/AlgorithmClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/org/run/client/algorithm/AlgorithmClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/org/run/client/algorithm/AlgorithmClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/org/run/client/algorithm/AlgorithmClient.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AlgorithmClient.testTwoSum">
+  <component name="RunManager" selected="JUnit.AlgorithmClient.testIsPalindrome">
     <configuration name="AlgorithmClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.run.client.algorithm.AlgorithmClient" />
       <module name="client" />
@@ -104,6 +85,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.run.algorithm.IsPalindrome" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.run.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmClient.testIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.run.client.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.run.client.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="org.run.client.algorithm.AlgorithmClient" />
+      <option name="METHOD_NAME" value="testIsPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlgorithmClient.testIsPalindrome" />
+        <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="JUnit.AlgorithmClient.testTwoSum" />
         <item itemvalue="Application.AlgorithmClient" />
       </list>
@@ -141,8 +153,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589370282556</updated>
-      <workItem from="1589370285450" duration="2025000" />
+      <workItem from="1589370285450" duration="4276000" />
     </task>
+    <task id="LOCAL-00001" summary="mac提交">
+      <created>1589372715088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589372715088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +185,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="整合以前的工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合以前的工具" />
+    <MESSAGE value="mac提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="mac提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" />
