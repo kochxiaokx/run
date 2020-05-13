@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/maven/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bpqYpmeeweIJREYsPI2sOtnUaZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1589341471930">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1589341471930">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1589341471930">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1589341471930">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341471930" />
+    <state x="492" y="182" key="SettingsEditor" timestamp="1589339453797">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589339453797" />
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1589339436321">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589339436321" />
+    <state x="365" y="235" key="new project wizard" timestamp="1589339838646">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="365" y="235" key="new project wizard/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589339838646" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589341818120">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589341818120" />
+  </component>
+</project>

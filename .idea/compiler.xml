@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="koch-web" />
+        <module name="ioc" />
+        <module name="data" />
+        <module name="mvc" />
+        <module name="some" />
+        <module name="design" />
+        <module name="algorithm" />
+        <module name="aop" />
+        <module name="date-util" />
+        <module name="sql-util" />
+        <module name="client" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
