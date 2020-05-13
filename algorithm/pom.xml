@@ -17,13 +17,20 @@
   <name>algorithm</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-
+  <properties>
+      <base.version>1.0-SNAPSHOT</base.version>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.run</groupId>
+      <artifactId>base</artifactId>
+      <version>${base.version}</version>
     </dependency>
   </dependencies>
 

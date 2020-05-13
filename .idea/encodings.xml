@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/algorithm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-structure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data-structure/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/date-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/date-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ioc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/koch-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/some" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/some/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sql-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sql-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util/src/main/java" charset="UTF-8" />
   </component>
 </project>
