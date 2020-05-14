@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="mac提交">
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/org/run/client/request/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/some/src/main/java/org/run/some/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/some/src/main/java/org/run/some/WebSocketServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/org/run/algorithm/IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/org/run/algorithm/IsPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some/target/classes/org/run/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/some/target/classes/org/run/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some/target/test-classes/org/run/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/some/target/test-classes/org/run/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-util/target/classes/org/run/sql/query/SqlQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/sql-util/target/classes/org/run/sql/query/SqlQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/target/classes/org/run/util/excel/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util/target/classes/org/run/util/excel/ExcelUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,11 +194,11 @@
   <component name="WindowStateProjectService">
     <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589416642598" />
     <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589416642598" />
-    <state x="2506" y="129" key="CommitChangelistDialog2" timestamp="1589423330901">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="629" y="134" key="CommitChangelistDialog2" timestamp="1589444846975">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="2506" y="129" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589423330901" />
-    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589419893722" />
+    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589444846975" />
     <state x="792" y="323" key="FileChooserDialogImpl" timestamp="1589416642598" />
     <state x="792" y="323" key="FileChooserDialogImpl/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589416642598" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1589436350085">
