@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="date-util" />
         <module name="client" />
         <module name="ioc" />
         <module name="util" />
@@ -14,10 +13,11 @@
         <module name="sql-util" />
         <module name="mvc" />
         <module name="aop" />
-        <module name="algorithm" />
+        <module name="date-util" />
         <module name="data" />
         <module name="base" />
         <module name="koch-web" />
+        <module name="algorithm" />
         <module name="data-structure" />
         <module name="design" />
       </profile>
