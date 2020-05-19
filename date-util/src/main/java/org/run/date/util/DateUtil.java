@@ -13,31 +13,11 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import static org.run.date.constant.DateConstant.*;
+
 public class DateUtil {
-    /** 时间格式(yyyy-MM-dd) */
-    public final static String DATE_PATTERN = "yyyy-MM-dd";
-    /** 时间格式(yyyy-MM-dd HH:mm:ss) */
-    public final static String DATE_TIME_PATTERN = "yyyy-MM-dd HH:mm:ss";
-    /** 时间格式(HH:mm:ss) */
-    public final static String TIME_PATTERN = "HH:mm:ss";
-    public final static String yyyy_MM_dd_HH_mm="yyyy-MM-dd HH:mm";
-    /**
-     * 设每一台手机的平均生产时间为10分钟
-     *///GENERATION
-    public final static Long GENERATION_TIME = 60 * 60 * 10 * 1000L;
 
-    public final static String MORING_WORK_TIME = " 09:00:00";
-    public final static String MORING_WORK_END_TIME = " 12:00:00";
-    public final static String AFTERNOON_WORK_TIME = " 13:00:00";
-    public final static String AFTERNOON_WORK_END_TIME = " 18:00:00";
-    public final static Long FOUR_WORK_TIME = 60 * 60 * 4 * 1000L ;
 
-    public final static Long ONE_HOUR = 60 * 60 * 1000L;
-    public final static String HOUR_PATTERN = "HH";
-    /**
-     * 一天的工作时间
-     */
-    public final static Long ONE_DAY_WORK_TIME =  60 * 60 * 8 * 1000L;
 
     public static String format(Date date) {
         if (date==null){
@@ -132,8 +112,8 @@ public class DateUtil {
         cal.set(year, month, 1);
         cal.add(Calendar.DAY_OF_MONTH, -1);
         //格式化日期
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        return sdf.format(cal.getTime())+" 23:59:59";
+        SimpleDateFormat sdf = new SimpleDateFormat(DATE_PATTERN);
+        return sdf.format(cal.getTime())+LAST_TIME;
     }
     //获得末年某月的第一天
     public static String getFirstDayOfMonth(int year, int month) {
@@ -141,7 +121,7 @@ public class DateUtil {
         cal.set(Calendar.YEAR, year);
         cal.set(Calendar.MONTH, month-1);
         cal.set(Calendar.DAY_OF_MONTH,cal.getMinimum(Calendar.DATE));
-        return new   SimpleDateFormat( "yyyy-MM-dd").format(cal.getTime()) + " 00:00:00";
+        return new   SimpleDateFormat( DATE_PATTERN).format(cal.getTime()) + START_TIME;
     }
     /**
      * 获得以本月为终点的12个月的时间段
@@ -150,8 +130,8 @@ public class DateUtil {
      */
     public static String[][] getLastTwelveMonth(){
         Date date = new Date();
-        Integer year = Integer.valueOf(format(date, "yyyy"));
-        Integer month = Integer.valueOf(format(date, "MM"));
+        Integer year = Integer.valueOf(format(date, YEAR_PATTERN));
+        Integer month = Integer.valueOf(format(date, MONTH_PATTERN));
         String[][] months = new String[12][2];
         for(int i = 0 ; i < 12 ; i++) {
             if(month > 0) {
@@ -181,7 +161,7 @@ public class DateUtil {
      */
     public static String[][] getYearMonth(Integer year){
         String[][] months = new String[12][2];
-        if(year == null) year = Integer.valueOf(format(new Date(),"yyyy"));
+        if(year == null) year = Integer.valueOf(format(new Date(),YEAR_PATTERN));
         for(int i = 0 ; i < 12 ; i++) {
             months[i][0] =	getFirstDayOfMonth(year,i+1);
             months[i][1] =  getLastDayOfMonth(year,i+1);
@@ -227,9 +207,12 @@ public class DateUtil {
      * @return
      */
     public static Integer getWeek(String date) {
+        return getWeek(parse(date,DATE_PATTERN));
+    }
+
+    public static Integer getWeek(Date date) {
         Calendar cal = Calendar.getInstance();
-        Date parse = parse(date, DATE_TIME_PATTERN);
-        cal.setTime(parse);
+        cal.setTime(date);
         int i = cal.get(Calendar.DAY_OF_WEEK) - 1;
         if(i <= 0) {
             i = 7;
@@ -241,7 +224,7 @@ public class DateUtil {
         Calendar cal = Calendar.getInstance();
         cal.setTime(parse(date));
         cal.add(Calendar.DAY_OF_MONTH, different);
-        return  format(cal.getTime(), DATE_PATTERN)+ " 23:59:59";
+        return  format(cal.getTime(), DATE_PATTERN)+ LAST_TIME;
     }
 
     /**
@@ -260,9 +243,9 @@ public class DateUtil {
         cal.add(Calendar.DAY_OF_MONTH, day);
         String dateTime = null;
         if(isLast) {
-            dateTime = format(cal.getTime()) + " 23:59:59";
+            dateTime = format(cal.getTime()) + LAST_TIME;
         }else {
-            dateTime = format(cal.getTime()) + " 00:00:00";
+            dateTime = format(cal.getTime()) + START_TIME;
         }
         return dateTime;
     }
@@ -274,7 +257,7 @@ public class DateUtil {
      */
     public static String[] getDate(Integer year,Integer month){
         if(month == null) {
-            month = Integer.parseInt(format(new Date(),"MM"));
+            month = Integer.parseInt(format(new Date(),MONTH_PATTERN));
         }
         if(month < 1 || month > 12) {
             throw new RRException("月份错误.");
@@ -294,7 +277,7 @@ public class DateUtil {
         String[] date = getDate(year,month);
         String startDate = date[0];
         Integer week = DateUtil.getWeek(startDate);
-        Long dayDifference = DateUtil.getDayDifference(DateUtil.parse(startDate), DateUtil.parse(date[1],DateUtil.DATE_TIME_PATTERN));
+        Long dayDifference = DateUtil.getDayDifference(DateUtil.parse(startDate), DateUtil.parse(date[1],DATE_TIME_PATTERN));
         Long total = dayDifference + 1; //这个月一共有多少天.
         int different =  7 - week;
         if(week != 1) {
@@ -348,8 +331,8 @@ public class DateUtil {
         String[][] days = new String[7][2];
         for(int i = 1; i < 8 ; i++) {
             String strDate = 	getSomeDayWeek(i);
-            days[i-1][0] = strDate + " 00:00:00";
-            days[i-1][1] = strDate+" 23:59:59";
+            days[i-1][0] = strDate + START_TIME;
+            days[i-1][1] = strDate + LAST_TIME;
         }
 
         return days;
@@ -364,21 +347,15 @@ public class DateUtil {
      * @return
      */
     public static String[][] getDayDifferenceAllDay(String start,String end){
-    /*	String startNumber =  format(parse(start), "MM");
-    	String endNumber =  format(parse(end), "MM");
-    	Integer init = Integer.valueOf(startNumber) - Integer.valueOf(endNumber);
-    	*/
-        Date startDate =  parse(start, DateUtil.DATE_PATTERN);
-        Date endDate =  parse(end, DateUtil.DATE_PATTERN);
+        Date startDate =  parse(start, DATE_PATTERN);
+        Date endDate =  parse(end, DATE_PATTERN);
 
         Long init =  getDayDifference(startDate,endDate);
         String[][] days = new String[Integer.valueOf(init.toString()) + 1][2];
-        long oneDay = 24 * 60 * 60 * 1000L;
-        String andOne = " 23:59:59";
         for(int i = 0 ; i < days.length ; i ++) {
-            Long time = startDate.getTime() + (oneDay * i);
+            Long time = startDate.getTime() + (ONE_DAY * i);
             days[i][0]  = format(new Date(time), DATE_PATTERN);
-            days[i][1] = format(new Date(time), DATE_PATTERN) + andOne;
+            days[i][1] = format(new Date(time), DATE_PATTERN) + LAST_TIME;
         }
 
         return days;
@@ -400,7 +377,7 @@ public class DateUtil {
             if(dif<0){
                 return null;
             }
-            return dif/24/60/60/1000;
+            return dif/ONE_DAY;
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -416,11 +393,11 @@ public class DateUtil {
     public static String[][] getDayDifferenceAllMonth(Date startDate,Date endDate){
 
 
-        Integer startYear = Integer.valueOf(DateUtil.format(startDate, "yyyy"));
-        Integer endYear = Integer.valueOf(DateUtil.format(endDate, "yyyy"));
+        Integer startYear = Integer.valueOf(DateUtil.format(startDate, YEAR_PATTERN));
+        Integer endYear = Integer.valueOf(DateUtil.format(endDate, YEAR_PATTERN));
 
-        Integer startMonth = Integer.valueOf(DateUtil.format(startDate, "MM"));
-        Integer endMonth = Integer.valueOf(DateUtil.format(endDate, "MM"));
+        Integer startMonth = Integer.valueOf(DateUtil.format(startDate, MONTH_PATTERN));
+        Integer endMonth = Integer.valueOf(DateUtil.format(endDate, MONTH_PATTERN));
 
         // 例如 : 2019 - 2020 年的情况
         Integer value = endYear - startYear;
@@ -475,8 +452,8 @@ public class DateUtil {
     }
 
     public static String[][] getDayDifferenceAllMonth(String startDate,String endDate){
-        Date startTime = DateUtil.parse(startDate, DateUtil.DATE_PATTERN);
-        Date endTime = DateUtil.parse(endDate, DateUtil.DATE_PATTERN);
+        Date startTime = DateUtil.parse(startDate, DATE_PATTERN);
+        Date endTime = DateUtil.parse(endDate, DATE_PATTERN);
         return getDayDifferenceAllMonth(startTime,endTime);
     }
 
@@ -485,7 +462,7 @@ public class DateUtil {
      * @return
      */
     public static Integer getNowHour() {
-        String hour = DateUtil.format(new Date(), "HH");
+        String hour = DateUtil.format(new Date(), TIME_PATTERN_HOURS);
         return Integer.valueOf(hour);
     }
 
@@ -503,36 +480,16 @@ public class DateUtil {
         Calendar calendar =  Calendar.getInstance();
         calendar.setTime(old);
         calendar.add(Calendar.DAY_OF_YEAR, addDay);
-        return new Timestamp(DateUtil.parse(DateUtil.format(calendar.getTime(), DateUtil.DATE_PATTERN)+workTime,  DateUtil.DATE_TIME_PATTERN).getTime());
+        return new Timestamp(DateUtil.parse(DateUtil.format(calendar.getTime(), DATE_PATTERN)+workTime,  DATE_TIME_PATTERN).getTime());
     }
 
-    public static String getDateCode(String old) {
-        String code = "";
-        if(StringUtil.isEmpty(old)) { //说明是第一条
-            code = "01";
-        }else {
-            String oldTime = old.substring(0, 8);
-            String nowTime = format(new Date(), "yyyyMMdd");
-            if(oldTime.equals(nowTime)) { //说明是今天的
-                Integer newNumber = Integer.valueOf(old.substring(14)) + 1;
-                if(newNumber < 10) {
-                    code = "0"+newNumber;
-                }else {
-                    code = newNumber.toString();
-                }
-            }else {
-                code = "01";
-            }
-        }
-        return format(new Date(), "yyyyMMddHHmmss") + code;
-    }
     /**
      * 获得今天结束的时间
      * ex: 2019-10-10 23:59:59
      * @return
      */
     public static Date getTodayEnd() {
-        String date =  format(getTodayStart())+" 23:59:59";
+        String date =  format(getTodayStart())+LAST_TIME;
         return parse(date, DATE_TIME_PATTERN);
     }
     /**
@@ -543,39 +500,16 @@ public class DateUtil {
     public static Date getTodayStart() {
         return parse(new Date(),DATE_PATTERN);
     }
+
     /**
-     * 以当前时间为例
-     * -1 ：表示当前时间 大于下午 18点 ,小于明天早上的9点
-     *  0：表示休息时间: 12 <= x <= 13
-     *  1:表示当前时间是在早上的工作时间内 , 即： 9<= x < 12
-     *  2: 表示当前时间是在下午的工作时间内 |  13 <= x < 16
+     * 获得现在是几点
      * @param time
      * @return
      */
-    public static int isWorkingTime(Timestamp time) {
-        Integer  x = nowHour(time);
-        if(x < 9 || x >= 18) {
-            return -1;
-        }else if(9 <= x && x < 12) {
-            return 1;
-        }else if(12 == x) {
-            return 0;
-        }else if(13 <= x && x < 18) {
-            return 2;
-        }
-        return 0;
-    }
-
     public static int nowHour (Timestamp time) {
-        return Integer.valueOf(format(new Date(time.getTime()), "HH"));
+        return Integer.valueOf(format(new Date(time.getTime()), TIME_PATTERN_HOURS));
     }
 
-    public static Timestamp addOneHour(Timestamp time) {
-        return new Timestamp(time.getTime() + ONE_HOUR);
-    }
 
-    public static boolean getStartTime(Timestamp time) {
 
-        return false;
-    }
 }
