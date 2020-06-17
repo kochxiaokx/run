@@ -1,4 +1,6 @@
-package org.run.algorithm;
+package org.run.algorithm.solution;
+
+import org.junit.Test;
 
 /**
  * 判断一个数是不是回文数

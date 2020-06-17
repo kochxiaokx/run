@@ -1,8 +1,8 @@
 package org.run.client.algorithm;
 
-import org.junit.jupiter.api.Test;
-import org.run.algorithm.IsPalindrome;
-import org.run.algorithm.TwoSum;
+import org.junit.Test;
+import org.run.algorithm.solution.IsPalindrome;
+import org.run.algorithm.solution.TwoSum;
 
 import java.util.Arrays;
 

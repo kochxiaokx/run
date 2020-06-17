@@ -9,6 +9,8 @@ import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.*;
 
+import static org.run.date.constant.DateConstant.DATE_TIME_PATTERN;
+
 public class Query extends BaseQuery {
     protected String hql;
     protected String countHql;
@@ -68,7 +70,7 @@ public class Query extends BaseQuery {
                 Object value = propertyDescriptor.getReadMethod().invoke(object);
                 if(value == null || NULL.equals(value)) continue;
                 if(type == Date.class || type == Timestamp.class){
-                    value = DateUtil.format((Date) value,DateUtil.DATE_TIME_PATTERN);
+                    value = DateUtil.format((Date) value,DATE_TIME_PATTERN);
                 }else{
                     value = String.valueOf(value);
                 }
@@ -231,7 +233,7 @@ public class Query extends BaseQuery {
             }else if(BigDecimal.class == type){
                 return new BigDecimal(value.toString());
             }else if(type == Date.class || type == Timestamp.class){
-                return DateUtil.parse(value.toString(),DateUtil.DATE_TIME_PATTERN);
+                return DateUtil.parse(value.toString(),DATE_TIME_PATTERN);
             }else {
                 return null;
             }

@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/date-util/src/main/java/org/run/date/constant/DateConstant.java" afterDir="false" />
+    <list default="true" id="57342c51-eae5-40b7-bf85-edc81f0d7ba3" name="Default Changelist" comment="链表两数之和">
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/Algorithem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/solution/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/org/run/client/request/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/some/src/main/java/org/run/some/HutooUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/some/src/main/java/org/run/some/httpClient/GetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/some/src/main/java/org/run/some/httpClient/util/HttpClientUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date-util/src/main/java/org/run/date/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/date-util/src/main/java/org/run/date/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/solution/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/org/run/algorithm/solution/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/org/run/algorithm/IsPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/org/run/algorithm/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/run/client/algorithm/AlgorithmClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/org/run/client/algorithm/AlgorithmClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/run/client/request/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/org/run/client/request/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/org/run/client/algorithm/AlgorithmClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/org/run/client/algorithm/AlgorithmClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/org/run/client/request/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/org/run/client/request/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date-util/target/classes/org/run/date/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/date-util/target/classes/org/run/date/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/some/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some/src/test/java/org/run/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/some/src/test/java/org/run/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some/target/test-classes/org/run/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/some/target/test-classes/org/run/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/sql-util/src/main/java/org/run/sql/query/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-util/target/classes/org/run/sql/query/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/sql-util/target/classes/org/run/sql/query/Query.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +82,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.HttpRequest">
-    <configuration name="AlgorithmClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.run.client.algorithm.AlgorithmClient" />
+  <component name="RunManager" selected="JUnit.AddTwoNumbers.test">
+    <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.run.some.httpClient.GetRequest" />
+      <module name="some" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.run.client.request.HttpClient" />
       <module name="client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.run.client.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,46 +104,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.run.algorithm.IsPalindrome" />
+    <configuration name="HutooUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.run.some.HutooUtil" />
+      <module name="some" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddTwoNumbers.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.run.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlgorithmClient.testIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.run.client.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.run.client.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="org.run.client.algorithm.AlgorithmClient" />
-      <option name="METHOD_NAME" value="testIsPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlgorithmClient.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.run.client.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.run.client.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="org.run.client.algorithm.AlgorithmClient" />
-      <option name="METHOD_NAME" value="testTwoSum" />
+      <option name="PACKAGE_NAME" value="org.run.algorithm.solution" />
+      <option name="MAIN_CLASS_NAME" value="org.run.algorithm.solution.AddTwoNumbers" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,9 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddTwoNumbers.test" />
+        <item itemvalue="Application.HttpClient" />
+        <item itemvalue="Application.HutooUtil" />
         <item itemvalue="Application.HttpRequest" />
-        <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.AlgorithmClient" />
+        <item itemvalue="Application.GetRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,54 +186,69 @@
     <MESSAGE value="test" />
     <MESSAGE value="整合以前的工具" />
     <MESSAGE value="mac提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="mac提交" />
+    <MESSAGE value="日期工具类整理" />
+    <MESSAGE value="链表两数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表两数之和" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="583" y="199" key="#Project_Structure" timestamp="1592360948484">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="583" y="199" key="#Project_Structure/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592360948484" />
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592362622492">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592362622492" />
+    <state x="802" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1592368507849">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2685" y="230" key="#com.intellij.ide.util.MemberChooser/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589857190380" />
+    <state x="802" y="239" key="#com.intellij.ide.util.MemberChooser/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368507849" />
     <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589416642598" />
     <state x="770" y="399" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589416642598" />
-    <state x="629" y="134" key="CommitChangelistDialog2" timestamp="1589445090196">
+    <state x="629" y="134" key="CommitChangelistDialog2" timestamp="1592368999092">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="2506" y="129" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589423330901" />
-    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589445090196" />
+    <state x="2506" y="129" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589850488703" />
+    <state x="629" y="134" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368999092" />
     <state x="792" y="323" key="FileChooserDialogImpl" timestamp="1589416642598" />
     <state x="792" y="323" key="FileChooserDialogImpl/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589416642598" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1589436350085">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="907" height="364" key="GridCell.Tab.0.bottom" timestamp="1592368905861">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589436350085" />
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589420224345" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1589436350085">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="907" height="364" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905861" />
+    <state width="907" height="364" key="GridCell.Tab.0.center" timestamp="1592368905861">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589436350085" />
-    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589420224344" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1589436350084">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="907" height="364" key="GridCell.Tab.0.center/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905861" />
+    <state width="907" height="364" key="GridCell.Tab.0.left" timestamp="1592368905861">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589436350084" />
-    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589420224344" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1589436350085">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="907" height="364" key="GridCell.Tab.0.left/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905861" />
+    <state width="907" height="364" key="GridCell.Tab.0.right" timestamp="1592368905861">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589436350085" />
-    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589420224345" />
-    <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1589419726829">
+    <state width="907" height="364" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905861" />
+    <state width="907" height="364" key="GridCell.Tab.1.bottom" timestamp="1592368905977">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.bottom/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589419726829" />
-    <state width="1815" height="364" key="GridCell.Tab.1.center" timestamp="1589419726829">
+    <state width="907" height="364" key="GridCell.Tab.1.bottom/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905977" />
+    <state width="907" height="364" key="GridCell.Tab.1.center" timestamp="1592368905977">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.center/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589419726829" />
-    <state width="1815" height="364" key="GridCell.Tab.1.left" timestamp="1589419726829">
+    <state width="907" height="364" key="GridCell.Tab.1.center/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905977" />
+    <state width="907" height="364" key="GridCell.Tab.1.left" timestamp="1592368905977">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.left/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589419726829" />
-    <state width="1815" height="364" key="GridCell.Tab.1.right" timestamp="1589419726829">
+    <state width="907" height="364" key="GridCell.Tab.1.left/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905977" />
+    <state width="907" height="364" key="GridCell.Tab.1.right" timestamp="1592368905977">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589419726829" />
+    <state width="907" height="364" key="GridCell.Tab.1.right/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368905977" />
     <state x="521" y="195" key="Maven.ArtifactSearchDialog" timestamp="1589416758575">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -248,16 +259,16 @@
     <state x="492" y="182" key="SettingsEditor/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589416734820" />
     <state x="790" y="318" key="chooseDestDirectoryDialog" timestamp="1589416642598" />
     <state x="790" y="318" key="chooseDestDirectoryDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589416642598" />
-    <state x="2549" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1589850422192">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1592360780838">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="2549" y="351" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589850422192" />
-    <state x="671" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589503085946" />
-    <state x="2665" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589850437457">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2549" y="351" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589856652434" />
+    <state x="671" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592360780838" />
+    <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592368946461">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="2665" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589850437457" />
-    <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589503094098" />
+    <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1592368946461" />
     <state x="365" y="235" key="new project wizard" timestamp="1589416642598" />
     <state x="365" y="235" key="new project wizard/62.0.1858.1080/1920.0.1920.1040@62.0.1858.1080" timestamp="1589416642598" />
     <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589427732702">

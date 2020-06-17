@@ -1,4 +1,4 @@
-package org.run.algorithm;
+package org.run.algorithm.solution;
 
 import org.run.base.exception.RRException;
 

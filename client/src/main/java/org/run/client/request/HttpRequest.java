@@ -1,6 +1,5 @@
 package org.run.client.request;
 
-import com.alibaba.fastjson.JSONObject;
 import org.run.util.result.FastJsonUtils;
 import org.run.util.result.Result;
 
@@ -8,10 +7,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.net.ConnectException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Map;
 
 /**
  * 模拟http请求
@@ -22,16 +20,16 @@ public class HttpRequest {
     private static String apiToken = null;
     private static final String USER_NAME = "333";
     private static final String PASSWORD = "333";
-    private static final String VERSION = "2";
     private final static String REQUEST_URL = "http://127.0.0.1:8083/bxibs/user/login?userName="
-                                            +USER_NAME+"&password="+PASSWORD+"&version="+VERSION;
+                                            +USER_NAME+"&password="+PASSWORD;
     private final static String RELOAD_URL  = "http://127.0.0.1:8083/bxibs/user/reload";
     private final static String POST = "POST";
     private final static String GET = "GET";
     public static void main(String[] args) {
         HttpRequest httpRequest =  new HttpRequest();
-        apiToken = httpRequest.login();
+        httpRequest.login();
         String json = httpRequest.reload(RELOAD_URL,GET);
+        System.out.println(json);
     }
 
 
@@ -39,10 +37,7 @@ public class HttpRequest {
         init(REQUEST_URL,POST);
         String json = getJson();
         Result result = FastJsonUtils.toBean(json,Result.class);
-        Map<String,Object> params =  (JSONObject)result.getData();
-        System.out.println(params);
-        String apiToken = params.get("apiToken").toString();
-        apiToken = apiToken;
+        apiToken = result.getData().toString();
         return apiToken;
     }
     public void init(String requestUrl,String requestMethod){
@@ -73,7 +68,12 @@ public class HttpRequest {
                 builder.append(dataStr);
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            if(e instanceof ConnectException){
+                System.out.println("对方拒绝连接");
+            }else{
+                e.printStackTrace();
+            }
+
         }finally {
             this.close(br);
         }
