@@ -1,7 +1,5 @@
 package org.run.algorithm.solution;
 
-import org.junit.Test;
-
 /**
  * 判断一个数是不是回文数
  * 如输入121
